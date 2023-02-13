@@ -1,0 +1,421 @@
+body {
+	background: black;
+	margin: 0;
+	color: white;
+}
+
+.tagline {
+	color: #d9ac26;
+	font-size: 20px;
+}
+
+#h2 {
+	font-family: 'Passion One', cursive;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 8.5rem;
+	color: #d9ac26;
+	/*margin-bottom: 100px;*/
+}
+
+
+/* left side menu css */
+
+
+/*ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: black;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #d9ac26;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+}*/
+
+.prize {
+	font-size: 2.2rem;
+}
+
+.eventdesc {
+	font-size: 1.8rem;
+}
+
+.eventheading {
+	font-size: 4.5rem;
+}
+
+.register {
+	color: white;
+}
+
+
+/*link template css for events*/
+
+#servicewrap {
+	margin-top: 0px;
+	/*padding-top: 20px;*/
+
+	text-align: center;
+	background-attachment: relative;
+	background-position: center center;
+	/*min-height: 550px;*/
+	width: 100%;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#servicewrap h2 {
+	color: white;
+	font-size: 50px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	margin-top: 150px;
+}
+
+
+
+
+/*menu bar css */
+
+.menu {
+	position: fixed;
+	right: -200px;
+	width: 260px;
+	height: 100%;
+	top: 0;
+	z-index: 10;
+	text-align: left;
+}
+
+.menu.menu-open {
+	right: 0;
+}
+
+.menu-wrap {
+	position: absolute;
+	top: 0;
+	left: 60px;
+	background: #1a1a1a;
+	width: 200px;
+	height: 100%
+}
+
+.menu h1.logo a {
+	font-family: Raleway, Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 800;
+	letter-spacing: .15em;
+	line-height: 40px;
+	text-transform: uppercase;
+	color: #fff;
+	margin-top: 20px;
+}
+
+.menu h1.logo a:hover {
+	color: #d9ac26;
+}
+
+.menu img.logo {
+	margin: 20px 0;
+	max-width: 160px;
+}
+
+.menu a {
+	margin-left: 20px;
+	color: gray;
+	display: block;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 40px;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+}
+
+.menu a:hover {
+	color: #d9ac26;
+}
+
+.menu a:active {
+	color: #fff;
+}
+
+.menu a>i {
+	float: left;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+	width: 25px;
+	font-size: 14px;
+	line-height: 40px;
+	margin: 25px 2px;
+}
+
+.menu-close {
+	cursor: pointer;
+	display: block;
+	position: absolute;
+	font-size: 14px;
+	color: gray;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	top: 20px;
+	right: 5px;
+	-webkit-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	-ms-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+	transition: all .1s ease-in-out;
+}
+
+.menu-close:hover {
+	color: #d9ac26;
+	-webkit-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	-ms-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+	transition: all .1s ease-in-out;
+}
+
+.body-push {
+	overflow-x: hidden;
+	position: relative;
+	left: 0;
+}
+
+.body-push-toright {
+	left: 200px;
+}
+
+.body-push-toleft {
+	left: -200px;
+}
+
+.menu,
+.body-push {
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+#menuToggle {
+	position: absolute;
+	top: 20px;
+	left: 0;
+	z-index: 11;
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	cursor: pointer;
+	background: rgba(0, 0, 0, .25);
+	-webkit-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	-ms-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+	transition: all .1s ease-in-out;
+}
+
+#menuToggle:hover {
+	color: #d9ac26;
+	background: rgba(0, 0, 0, .2);
+	-webkit-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	-ms-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+	transition: all .1s ease-in-out;
+}
+
+
+/*menu bar css end */
+
+
+/* dynamic tab css */
+
+#dynamictab {
+	padding-top: 30px;
+}
+
+.tab-content p {
+	font-size: 20px;
+}
+
+.tab-content h3 {
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.tab-content strong {
+	text-decoration: underline;
+}
+
+#rulelist {
+	font-size: 20px;
+}
+
+.tabheading {
+	font-size: 20px;
+	color: #d9ac26;
+	font-weight: bold;
+}
+
+a.regbtn {
+	margin: auto;
+}
+
+
+/* dynamic tab css end */
+
+
+/* LAN events CSS */
+
+.tab img {
+	padding-bottom: 50px;
+}
+
+/* added for lan.html */
+.hero {
+	margin-bottom: 20px;
+}
+.game {
+	margin-bottom: 20px;
+}
+.game .lan-info-v1 {
+	position: absolute;
+	bottom: 30px;
+	right: 15px;
+	width: 100%;
+	height: 50px;
+	font-size: 1.2em;
+	font-weight: 500;
+	line-height: 50px;
+	text-align: right;
+	padding-right: 20px;
+	background: rgba(0,0,0,.7);
+}
+.game .lan-info-v1 a{
+	text-decoration: none;
+	color: #d9ac26;
+}
+
+/*.game .lan-info-v2 {
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+	height: 50px;
+	width: 50px;
+	font-size: 1.2em;
+	font-weight: 500;
+	line-height: 50px;
+	background: rgba(217, 172, 38,.9);
+	text-align: center;
+	border-radius: 50%;
+	box-shadow: 2px 2px 3px #111;
+}
+.game .lan-info-v2 a{
+	text-decoration: none;
+	color: #fff;
+}*/
+
+/* overlay info panels */
+#mm-panel, #cs-panel, #fifa-panel {
+	  width: 0;
+	  height: 100%;
+	  position: fixed;
+	  top: 0;
+	  left: 0;
+	  z-index: 999;
+	  background: #111;
+	  overflow-x: hidden;
+	  transition: 0.5s;
+}
+.closebtn {
+	position: absolute;
+	text-decoration: none;
+	color: #d9ac26;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+	z-index: 999;
+}
+.closebtn:hover {
+	text-decoration: none;
+	color: #d9ac26;
+}
+#mm:hover, #cs:hover, #fifa:hover {
+	cursor: pointer;
+}
+
+/*LAN event css end */
+
+
+/* 8 - Footer Section  
+---------------------------------------------------------------------- */
+
+#footer-section {
+	width: 100%;
+	min-height: 80px;
+	background-color: black;
+}
+
+#footer-section p {
+	margin: 0;
+	padding: 25px 15px;
+	text-align: center;
+	line-height: 30px;
+	color: #1a1a1a;
+}
+
+#footer-section p a {
+	color: #3498db;
+}
+
+#footer-text {
+	color: gold;
+	text-decoration: none;
+}
+
+a#footer-text {
+	color: gold;
+	text-decoration: none;
+}
+
+#footer1-text {
+	color: white;
+}
+
+
+/* 8 - Footer Section End 
+---------------------------------------------------------------------- */
