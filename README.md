@@ -1,3 +1,2 @@
-# technovisioncs.github.io
-
-* [technovisioncs.github.io](https://technovisioncs.github.io/)
+# Christ University
+https://mini-nijgal.github.io/Melange/
