@@ -12,7 +12,9 @@ canvas {
 	height: 100%;
 	top: 0;
 	left: 0;
-	background-color: transparent;
+	/* background-color: #1556cf transparent  ; */
+	/* background-color: #01102b; */
+	/* background: rgba(4, 60, 173, 0.8); */
 }
 
 
