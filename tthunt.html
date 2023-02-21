@@ -2,26 +2,20 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title> Technovision</title>
+		<title> JCC</title>
 		<link rel="icon" href="images/icon.gif">
 		<meta name="description" content="Technovision festival computer science department SIES college">
 		<meta name="author" content="Techno">
-
 		<!-- Mobile Specific Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-
 		<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-
 		<!-- Bootstrap  -->
 		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
-
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
 		<!-- icon fonts font Awesome -->
 		<link href="assets/css/font-awesome.min.css" rel="stylesheet">
 		<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
@@ -30,9 +24,39 @@
 
 		<!-- Custom Styles -->
 		<link href="assets/css/events.css" rel="stylesheet">
+		<link href="assets/css/style.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="assets/css/partical-animation.css">
+		<!-- <link rel="stylesheet" type="text/css" href="assets/css/partical-animation.css"> -->
 	</head>
 	<body>
 		<!-- Menu -->
+		<!-- new nav by @sorinr-->
+		<nav class="navbar navbar-inverse navbar-fixed-top" id="main-nav">
+			<div class="container-fluid">
+			  <!-- Brand and toggle get grouped for better mobile display -->
+			  <div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navigation" aria-expanded="false">
+				  <span class="sr-only">Toggle navigation</span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				</button>
+			  </div>
+	  
+			  <!-- Collect the nav links, forms, and other content for toggling -->
+			  <div class="collapse navbar-collapse" id="main-navigation">
+				<ul class="nav navbar-nav navbar-right topnav">
+					  <li><a href="index.html" class="scrollable">Home</a></li>
+					  <li><a href="#about" class="scrollable">About</a></li>
+					  <li><a href="#events" class="scrollable">Events</a></li>
+					  <li><a href="#sponsors" class="scrollable">Sponsors</a></li>
+					  <li><a href="#contact" class="scrollable">Contact</a></li>
+				</ul>
+			  </div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		  </nav>
+		  <!-- end new nav -->
+	  
 		<nav class="menu" id="theMenu">
 			<div class="menu-wrap">
 				<h1 class="logo"><a href="index.html#home">Techno</a></h1>
@@ -54,93 +78,60 @@
 				<a href="https://www.instagram.com/technovision2016/" target="_blank"><i class="fa fa-instagram"></i></a>
 				<a href="https://www.youtube.com/channel/UCy8yyBLssAL83C9t8DbtzSw?app=desktop" class="youtube-btn" target="_blank"><i class="fa fa-youtube"></i></a>
 			</div>
-
 			<!-- Menu button -->
 			<div id="menuToggle"><i class="fa fa-bars"></i></div>
 		</nav>
-
 		<!-- MAIN IMAGE SECTION -->
-		<div id="servicewrap">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-8 col-lg-offset-2">
-						<!-- <h2>Technical Treasure Hunt
-						</h2> -->
-						<img src="assets/images/twister.jpg" width="100%"/>
-					</div>
-				</div>
-				<!-- row -->
-			</div>
-			<!-- /container -->
-		</div>
+
 		<!-- /headerwrap -->
 
-		<!-- PROCESS SECTION -->
+		<!-- PROCESS SECTION -->   
 <!--		<div class="container" id="dynamictab">
-
-			<!--  <h2>Dynamic Tabs</h2> -->
-<!--			<ul class="nav nav-tabs">
+			
+				<div id="particles-js">    
+				</div> 
+			-->
+			<!--  
+				<h2>Dynamic Tabs</h2> 
+			-->
+ 			<div style="overflow:auto;-webkit-overflow-scrolling:touch">
+			<ul class="nav nav-tabs">
 				<li class="active"><a data-toggle="tab" href="#introduction" class="tabheading">Introduction</a></li>
-				<!-- <li><a data-toggle="tab" href="#rounds" class="tabheading">Rounds</a></li> -->
-<!--				<li><a data-toggle="tab" href="#rules" class="tabheading">Rules</a></li>
+				<li><a data-toggle="tab" href="#rules" class="tabheading">Rules</a></li>
 				<li><a data-toggle="tab" href="#contact" class="tabheading">Contact</a></li>
 			</ul>
+			</div>
 
 			<div class="tab-content">
 				<div id="introduction" class="tab-pane fade in active">
-					<h3>Introduction</h3>
-					<p>Life is like a game of LUDO,
-						<br>when you are at home your safe, 
-						<br>when you leave difficulties and risks increase. 
-<br>Every player want to go ahead and throw you out but you have to move on the path where your destiny leads you to. 
-<br>So make your moves smartly and leave the rest on your luck, if you’re lucky you will win in the end.
-
-						<br> <span style="font-size: 25px">Entry : 40 / team </span></p>
-				</div>
-
-
-				<div id="rules" class="tab-pane fade">
-					<h3>Rules</h3>
-					<p>
-						<ul id="rulelist">
-							<li>	4 teams with 4 players will play at a time.</li>
-<li>	To start with the game each team has to roll 6 on dice.</li>
-							<li>	Normal LUDO rules apply.</li>
-<li>	If the player of a team is captured by opponent team player then the captured player is out and the remaining team players have to continue.</li>
-							<li>	Any kind of misbehaviour, the participant will be disqualified.</li>
-<li>	Prize money will be transferred online (RTGS).</li>
-						</ul>
-					</p>
-				</div>
-
-				<div id="contact" class="tab-pane fade">
-					<h3>Contact us</h3>
-					<p><span class="glyphicon glyphicon-earphone" style="color: white"></span> Kajal: 8424007997<br>
-						<span class="glyphicon glyphicon-earphone" style="color: white"></span>	Nitin: 7666931619<br>
-						<span class="glyphicon glyphicon-earphone" style="color: white"></span>	Amrapali: 7039302034<br>
+					<h3>UNSC: The Security Council</h3>
+					<h2>The agenda- </h2>
+					<p>Nearly the whole South China Sea, including the Paracel Islands, is claimed by China. However, areas of the region thought to contain substantial oil and gas deposits are also claimed by Taiwan, the Philippines, Brunei, Malaysia, and Vietnam. It claims that a US warship entered the waters surrounding China's Xisha (Paracel) island without authorization from the Chinese government and that this "seriously violated China's sovereignty" and "harmed regional peace."
 					</p>
 				</div>
 			</div>
 		</div>
 
 		<!-- Footer Section -->
-		<footer id="footer-section">
+		<!-- <footer id="footer-section">
 			<p class="copyright">
 				<span id="footer-text">&copy;  Technovision 2018-2019, All Rights Reserved. </span><br> <span id="footer1-text">Designed  & Developed by </span>
 				<span id="footer-text">Jose Marlin</span>
 				<span id="footer1-text"> & </span>
 				<span id="footer-text">Praveen Saraogi</span>
 			</p>
-		</footer>
+		</footer> -->
 		<!-- Footer Section End -->
-
+		
 		<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 		<script src="assets/js/modernizr.custom.js"></script>
 		<script src="assets/js/main.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+		
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		
+		<!-- [ PARTICLE SCRIPT ] -->		
 	</body>
 </html>

@@ -6,23 +6,16 @@
 		<link rel="icon" href="images/icon.gif">
 		<meta name="description" content="Technovision festival computer science department SIES college">
 		<meta name="author" content="Techno">
-
 		<!-- Mobile Specific Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-
 		<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-
 		<!-- Bootstrap  -->
 		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
-
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
 		<!-- icon fonts font Awesome -->
 		<link href="assets/css/font-awesome.min.css" rel="stylesheet">
 		<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
@@ -31,15 +24,44 @@
 
 		<!-- Custom Styles -->
 		<link href="assets/css/events.css" rel="stylesheet">
-
+		<link href="assets/css/style.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="assets/css/partical-animation.css">
+		<!-- <link rel="stylesheet" type="text/css" href="assets/css/partical-animation.css"> -->
 	</head>
 	<body>
 		<!-- Menu -->
+		<!-- new nav by @sorinr-->
+		<nav class="navbar navbar-inverse navbar-fixed-top" id="main-nav">
+			<div class="container-fluid">
+			  <!-- Brand and toggle get grouped for better mobile display -->
+			  <div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navigation" aria-expanded="false">
+				  <span class="sr-only">Toggle navigation</span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				</button>
+			  </div>
+	  
+			  <!-- Collect the nav links, forms, and other content for toggling -->
+			  <div class="collapse navbar-collapse" id="main-navigation">
+				<ul class="nav navbar-nav navbar-right topnav">
+					  <li><a href="index.html" class="scrollable">Home</a></li>
+					  <li><a href="#about" class="scrollable">About</a></li>
+					  <li><a href="#events" class="scrollable">Events</a></li>
+					  <li><a href="#sponsors" class="scrollable">Sponsors</a></li>
+					  <li><a href="#contact" class="scrollable">Contact</a></li>
+				</ul>
+			  </div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		  </nav>
+		  <!-- end new nav -->
+	  
 		<nav class="menu" id="theMenu">
 			<div class="menu-wrap">
-			<h1 class="logo"><a href="index.html#home">Techno</a></h1>
-			<i class="fa fa-arrow-right menu-close"></i>
-			<a href="index.html">HOME</a>
+				<h1 class="logo"><a href="index.html#home">Techno</a></h1>
+				<i class="fa fa-arrow-right menu-close"></i>
+				<a href="index.html">HOME</a>
 				<a href="codeathon.html">TYPE MASTER</a>
 				<a href="googledoodle.html">RINK FOOTBALL</a>
 				<a href="tthunt.html">TWISTER</a>
@@ -51,101 +73,65 @@
 				<a href="dnd.html">DO NOT DISTURB</a>
 				<a href="8bitgame.html">8 BIT GAMING</a>
 				
-			<a href="https://www.facebook.com/technovisionfest/?fref=ts" target="_blank"><i class="fa fa-facebook"></i></a>
-			<a href="https://plus.google.com/u/1/" class="google-plus-btn" target="_blank"><i class="fa fa-google-plus"></i></a>
-			<a href="https://www.instagram.com/technovision2016/" target="_blank"><i class="fa fa-instagram"></i></a>
-			<a href="https://www.youtube.com/channel/UCy8yyBLssAL83C9t8DbtzSw?app=desktop" class="youtube-btn" target="_blank"><i class="fa fa-youtube"></i></a>
+				<a href="https://www.facebook.com/technovisionfest/?fref=ts" target="_blank"><i class="fa fa-facebook"></i></a>
+				<a href="https://plus.google.com/u/1/" class="google-plus-btn" target="_blank"><i class="fa fa-google-plus"></i></a>
+				<a href="https://www.instagram.com/technovision2016/" target="_blank"><i class="fa fa-instagram"></i></a>
+				<a href="https://www.youtube.com/channel/UCy8yyBLssAL83C9t8DbtzSw?app=desktop" class="youtube-btn" target="_blank"><i class="fa fa-youtube"></i></a>
 			</div>
-
 			<!-- Menu button -->
 			<div id="menuToggle"><i class="fa fa-bars"></i></div>
 		</nav>
-
 		<!-- MAIN IMAGE SECTION -->
-		<div id="servicewrap" >
-			<div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2">	
-				<img src="assets/images/trivia.jpg" width="100%"/>	
-				</div>
-			</div>
-			<!-- row -->
-			</div>
-			<!-- /container -->
-		</div>
+
 		<!-- /headerwrap -->
 
-		<!-- PROCESS SECTION -->
+		<!-- PROCESS SECTION -->   
 <!--		<div class="container" id="dynamictab">
-
-			<!--  <h2>Dynamic Tabs</h2> -->
-<!--			<ul class="nav nav-tabs">
-			<li class="active"><a data-toggle="tab" href="#introduction" class="tabheading">Introduction</a></li>			
-			<li><a data-toggle="tab" href="#rules" class="tabheading">Rules</a></li>
-			<li><a data-toggle="tab" href="#contact" class="tabheading">Contact</a></li>
+			
+				<div id="particles-js">    
+				</div> 
+			-->
+			<!--  
+				<h2>Dynamic Tabs</h2> 
+			-->
+ 			<div style="overflow:auto;-webkit-overflow-scrolling:touch">
+			<ul class="nav nav-tabs">
+				<li class="active"><a data-toggle="tab" href="#introduction" class="tabheading">Introduction</a></li>
+				<li><a data-toggle="tab" href="#rules" class="tabheading">Rules</a></li>
+				<li><a data-toggle="tab" href="#contact" class="tabheading">Contact</a></li>
 			</ul>
+			</div>
 
 			<div class="tab-content">
-			<div id="introduction" class="tab-pane fade in active">
-				<h3>Introduction</h3>
-				<p>Can anyone just say that they have never played a dare game so far?
-<br>We know there will be no one..!
-<br>So folks if you love to play dares then this game is perfect for you!
-<br>Come and play MailMe with your partner which also have some twists as its name suggests... 
-					<br>We bet you and your friend will definitely have fun and love pulling each other in this game
-
-
- 
-
-					<br> <span style="font-size: 25px">Registration Amount : 30/-</span>
-				</p>
-			</div>
-
-			<div id="rules" class="tab-pane fade">
-				<h3>Rules</h3>
-				<p>
-					<ul id="rulelist">
-						<li>	The game will be of 2 vs 2 players.</li>
-						<li>	There will be two ring on both side of players.</li>
-						<li>	The first player of each team will throw the mail into the ring.</li>
-						<li>	The second player will run and complete the given task written in the mail.</li>
-						<li>	Once the task is completed, the team has to shout -‘Mail me’.</li>
-						<li>	The pair which finishes its task first will qualify to the next round.</li>
-						<li>	Each slot will have 3 rounds.</li>
-						<li>	Any kind of misbehaviour, the participant will be disqualified.</li>
-
-
-					</ul>
-				</p>
-			</div>
-				<div id="contact" class="tab-pane fade">
-					<h3>Contact us</h3>
-					<p>
-						<span class="glyphicon glyphicon-earphone" style="color: white"></span> Rohi:+91 8369417184<br>
-						<span class="glyphicon glyphicon-earphone" style="color: white"></span> Saurabh : +91 9769435805<br>
+				<div id="introduction" class="tab-pane fade in active">
+					<h3>UNGA: The UN General Assembly</h3>
+					<h2>The agenda- </h2>
+					<p>Under the NPT, five nations are considered to be “nuclear weapons states”: the United States, Russia, China, the United Kingdom, and France. Of these countries, the US and Russia by far surpass the estimated nuclear stockpile of the others. However, the question arises whether all countries should possess nuclear weapons or not. Washington’s non-proliferation policy, which once slowed the spread of nuclear weapons, now looks to be on the verge of collapse.
 					</p>
 				</div>
 			</div>
 		</div>
 
 		<!-- Footer Section -->
-		<footer id="footer-section">
+		<!-- <footer id="footer-section">
 			<p class="copyright">
 				<span id="footer-text">&copy;  Technovision 2018-2019, All Rights Reserved. </span><br> <span id="footer1-text">Designed  & Developed by </span>
 				<span id="footer-text">Jose Marlin</span>
 				<span id="footer1-text"> & </span>
 				<span id="footer-text">Praveen Saraogi</span>
 			</p>
-		</footer>
-
+		</footer> -->
 		<!-- Footer Section End -->
+		
 		<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 		<script src="assets/js/modernizr.custom.js"></script>
 		<script src="assets/js/main.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+		
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		
+		<!-- [ PARTICLE SCRIPT ] -->		
 	</body>
 </html>
